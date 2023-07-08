@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Sensations</title>
+  <style>
+    /* CSS styles for the landing page */
+    body {
+      font-family: Times, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+    }
+    .header-button {
+      margin-left: 10px;
+      padding: 8px 16px;
+      background-color: #ff0000;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    
+    .header-button:hover {
+      background-color: #00a2ff;
+    }
+    
+    .container {
+      position: relative;
+      text-align: center;
+      margin-top: 150px;
+      padding: 20px;
+    }
+    
+    .bg-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.6;
+    }
+    
+    h1 {
+      font-size: 58px;
+      color: #000000;
+      letter-spacing: 3px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 24px;
+      color: #000000;
+      margin-bottom: 50px;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      padding: 18px 48px;
+      background-color: #ff5500;
+      color: #fff;
+      font-size: 28px;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s;
+    }
+    
+    .cta-button:hover {
+      background-color: #00a2ff;
+    }
+    
+    .slogan {
+      font-size: 32px;
+      color: #000000;
+      margin-top: 50px;
+      letter-spacing: 1px;
+    }
+    
+    .cards {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1;
+    }
+    
+    .card {
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 10px;
+      transition: transform 0.3s;
+    }
+    
+    .card:hover {
+      transform: scale(1.1);
+    }
+    
+    .card img {
+      width: 150px;
+      height: 140px;
+      border-radius: 10%;
+    }
+    
+    .card p {
+      font-size: 14px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-right">
+      <a class="header-button" href="login.html">Login</a>
+      <a class="header-button" href="signup.html">Sign Up</a>
+    </div>
+  </div>
+  <div class="container">
+    <img class="bg-image" src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Background Image">
+    <h1>Food Sensations</h1>
+    <p>Order delicious food online and get it delivered to your doorstep.</p>
+    <a class="cta-button" href="order.html">Place Order</a>
+    <p class="slogan">Satisfy your cravings with our mouth-watering menu.</p>
+  </div>
+  
+  <div class="cards">
+    <div class="card">
+      <img src="https://img.freepik.com/free-vector/special-offer-blue-creative-banner_1262-8006.jpg?w=740&t=st=1688816938~exp=1688817538~hmac=72b1064ec87cf4e966115cc69f627c073552a498f7693db73a8bd05a2cc72873" alt="Card 1">
+    </div>
+    <div class="card">
+      <img src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?w=740&t=st=1688817124~exp=1688817724~hmac=c6d0491f2c75c2eb45e6569b6cbab5d20b18635a396e8646dfb411f0e94f3caf" alt="Card 2">
+    </div>
+    <div class="card">
+      <img src="https://img.freepik.com/free-vector/delivery-service-with-masks-concept_23-2148497067.jpg?w=740&t=st=1688817292~exp=1688817892~hmac=77924dc95f08075215fc4eeced85c9f02fcf89fa0e41b0adab0b3cc0a820cc52" alt="Card 3">
+    </div>
+  </div>
+</body>
+</html>
